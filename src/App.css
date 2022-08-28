@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #23252C;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+section{
+  width: 100%;
+  max-width: 317px;
+}
+.card{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  border-radius: 10px;
+  background-color: #1A1B21;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.card--header{
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-bottom: 1.2rem;
+  
+}
+.card--header .card--name{
+  font-size: 25px;
+  font-weight: 700;
+}
+.card--header .card--skill{
+  font-size: 12.8px;
+  padding-bottom: 3px;
+  color: #F3BF99;
+}
+.card--header .card--website{
+  font-size: 10.25px;
+  cursor: pointer;
+  display: inline;
+}
+.card--btn{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.2rem;
+}
+.button{
+  width: 115px;
+  padding: 0.5rem 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.fa-envelope{
+  margin-right: 10px;
+}
+.fa-linkedin{
+  margin-right: 10px;
+}
+.btn--linkedin{
+  background-color: #5093E2;
+  color: #fff;
+}
+.card--content{
+  padding: 0 2.2rem;
+  margin-bottom: 2.5rem;
+}
+.card--content > p {
+  font-size: 10.24px;
+  line-height: 1.5;
+}
+.card--content > h3{
+  padding-bottom: 5px;
+}
+.social--icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  background-color: #161619;
+}
+.social--icons > i{
+  font-size: 2rem;
+  color: #918E9B;
+  margin: 0 .8rem;
+  cursor: pointer;
+}
+
